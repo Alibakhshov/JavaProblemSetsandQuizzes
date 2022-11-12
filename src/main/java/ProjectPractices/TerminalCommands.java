@@ -1,11 +1,10 @@
 package ProjectPractices;
-import javax.imageio.IIOException;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Test {
+public class TerminalCommands {
     public static void main(String[] args) {
         String [] command = {"ls"};
 
