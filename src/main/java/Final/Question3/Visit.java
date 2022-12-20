@@ -1,45 +1,119 @@
 package Final.Question3;
 
-public class Visit {
-    private Customer customer;
-    private String service;
-    private double price;
 
-    public Visit(String name, String service) {
+public class Visit {
+    private final Customer customer;
+    private final double serviceExpense;
+    private final double productExpense;
+
+    public Visit(String name, double serviceExpense, double productExpense) {
         this.customer = new Customer(name);
-        this.service = service;
-        this.price = 0;
+        this.serviceExpense = serviceExpense;
+        this.productExpense = productExpense;
     }
 
     public String getName() {
         return customer.getName();
     }
 
-    public String getService() {
-        return service;
-    }
-
-    public void setService(String service) {
-        this.service = service;
-    }
-
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
     public double getServiceExpense() {
-        return price * (1 - DiscountRate.getServiceDiscountRate(service));
+        return serviceExpense;
     }
 
     public double getProductExpense() {
-        return price * (1 - DiscountRate.getProductDiscountRate(customer.getMemberType()));
+        return productExpense;
     }
 
     public double getTotalExpense() {
-        return getServiceExpense() + getProductExpense();
+        return serviceExpense + productExpense;
+    }
+
+    @Override
+    public String toString() {
+        return "Visit(" +
+                "name=" + getName() +
+                ", serviceExpense=" + serviceExpense +
+                ", productExpense=" + productExpense +
+                ')';
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//import java.util.Date;
+//
+//public class Visit {
+//
+//    private final Customer name;
+//    private final Date date;
+//    private double serviceExpense;
+//    private double productExpense;
+//
+//    public Visit(Customer name, Date date) {
+//        this.name = name;
+//        this.date = date;
+//    }
+//
+//    public String getName() {
+//        return name.getName();
+//    }
+//
+//    public double getServiceExpense() {
+//        return serviceExpense;
+//    }
+//
+//    public void setServiceExpense(double serviceExpense) {
+//        this.serviceExpense += serviceExpense;
+//    }
+//
+//    public double getProductExpense() {
+//        return productExpense;
+//    }
+//
+//    public void setProductExpense(double productExpense) {
+//        this.productExpense += productExpense;
+//    }
+//
+//    public double getTotalExpense() {
+//        return  (serviceExpense - (serviceExpense * DiscountRate.getServiceDiscountRate(name.getMemberType()))) +
+//                (productExpense - (productExpense * DiscountRate.getProductDiscountRate(name.getMemberType())));
+//
+//    }
+//
+//    @Override
+//    public String toString() {
+//        return "Visit{" +
+//                "customer=" + name.toString() +
+//                ", date=" + date +
+//                ", serviceExpense=" + serviceExpense +
+//                ", productExpense=" + productExpense +
+//                '}';
+//    }
+//}
+
+
+

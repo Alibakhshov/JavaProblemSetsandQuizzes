@@ -1,5 +1,6 @@
 package Final.Question3;
 
+
 public class DiscountRate {
     private static double serviceDiscountPremium = 0.2;
     private static double serviceDiscountGold = 0.15;
@@ -19,7 +20,6 @@ public class DiscountRate {
             return 0;
         }
     }
-
     public static double getProductDiscountRate(String type) {
         if (type.equals("Premium")) {
             return productDiscountPremium;
@@ -32,3 +32,5 @@ public class DiscountRate {
         }
     }
 }
+
+

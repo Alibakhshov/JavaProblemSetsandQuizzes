@@ -1,35 +1,34 @@
 package Final.Question2;
 
 public class Movable {
-    private int x;
-    private int y;
-    private int xSpeed;
-    private int ySpeed;
-
-    public Movable(int x, int y, int xSpeed, int ySpeed) {
-        this.x = x;
-        this.y = y;
-        this.xSpeed = xSpeed;
-        this.ySpeed = ySpeed;
-    }
-
     public void moveUp() {
-        y += ySpeed;
+        System.out.println("move up");
     }
 
     public void moveDown() {
-        y -= ySpeed;
+        System.out.println("move down");
     }
 
     public void moveLeft() {
-        x -= xSpeed;
+        System.out.println("move left");
     }
 
     public void moveRight() {
-        x += xSpeed;
+        System.out.println("move right");
     }
 
-    public String toString() {
-        return "x: " + x + ", y: " + y + ", xSpeed: " + xSpeed + ", ySpeed: " + ySpeed;
+    public static void main(String[] args) {
+        MovableCircle circle = new MovableCircle(10, 10, 1, 1, 5);
+        System.out.println(circle);
+        circle.moveDown();
+        circle.moveDown();
+        circle.moveRight();
+        circle.moveRight();
+        circle.moveUp();
+        circle.moveLeft();
+        circle.moveLeft();
+        System.out.println(circle);
     }
+
+
 }
