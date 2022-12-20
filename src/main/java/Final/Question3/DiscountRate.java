@@ -19,7 +19,6 @@ public class DiscountRate {
         } else {
             return 0;
         }
-
     }
     public static double getProductDiscountRate(String type) {
         if (type.equals("Premium")) {
