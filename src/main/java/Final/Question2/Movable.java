@@ -1,16 +1,21 @@
 package Final.Question2;
 
+
 public class Movable {
-public static void main(String[] args) {
-        MovablePoint point = new MovablePoint(10, 10, 1, 1);
-        System.out.println(point);
-        point.moveDown();
-        point.moveDown();
-        point.moveRight();
-        point.moveRight();
-        point.moveUp();
-        point.moveLeft();
-        point.moveLeft();
-        System.out.println(point);
+    public void moveUp() {
+        System.out.println("move up");
     }
+
+    public void moveDown() {
+        System.out.println("move down");
+    }
+
+    public void moveLeft() {
+        System.out.println("move left");
+    }
+
+    public void moveRight() {
+        System.out.println("move right");
+    }
+
 }
