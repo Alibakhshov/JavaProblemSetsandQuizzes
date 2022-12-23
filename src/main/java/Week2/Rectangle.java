@@ -1,3 +1,11 @@
+//Instructions:
+//        Write a Java program that implements the design described by the UML Class diagram given below.
+//
+//        Rectangle uml class diagram
+//
+//Method toString():
+//        Every well-designed Java class should contain a public method called toString() that returns a short description of the instance (in a return type of String). The toString() method can be called explicitly (via instanceName.toString()) just like any other method; or implicitly through println(). If an instance is passed to the println(anInstance) method, the toString() method of that instance will be invoked implicitly.
+
 package Week2;
 
 public class Rectangle {

@@ -1,3 +1,30 @@
+//Instructions:
+//        Write a complete Java program in a file named StarFigures that generates the following output. Use static methods to show structure and eliminate redundancy in your solution.
+//
+//
+//        *****
+//        *****
+//        * *
+//        *
+//        * *
+//
+//        *****
+//        *****
+//        * *
+//        *
+//        * *
+//        *****
+//        *****
+//
+//        *
+//        *
+//        *
+//        *****
+//        *****
+//        * *
+//        *
+//        * *
+
 package Week2;
 
 public class StarFigures {

@@ -1,3 +1,17 @@
+//Instructions:
+//        Implement the Student class depicted in UML Class diagram using Java programming language.
+//
+//        Note: Pay attention that this class doesn't have the static main method, that's why it's not runnable.
+//
+//
+//
+//        Example of object initialization:
+//
+//        Student aidarbek = new Student("Aidarbek", "Zamirbekov", "aidar.zamirbekov@alatoo.edu.kg", 86.0, "bachelor");
+//        Output format for the toString() method:
+//
+//        Student[firstName='Aidarbek', lastName='Zamirbekov', email='aidar.zamirbekov@alatoo.edu.kg', gpa=86.0, degree='bachelor']
+
 package Week2;
 
 public class Student {

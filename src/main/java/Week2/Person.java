@@ -1,3 +1,18 @@
+//Instructions:
+//        Implement the Person class depicted in UML Class diagram using Java programming language.
+//
+//        Note: Pay attention that this class doesn't have the static main method, that's why it's not runnable.
+//
+//
+//
+//        Example of object initialization:
+//        Person person = new Person("John", "Wick", "john@wick.com", 55);
+//        Output format for the toString() method:
+//
+//        Person{name='John', lastName='Wick', email='john@wick.com', age=55}
+//        Person UML Class diagram
+
+
 package Week2;
 
 public class Person {
