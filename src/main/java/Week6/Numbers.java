@@ -1,3 +1,22 @@
+//Instructions:
+//        Write a Java program that accepts an integer ( n ) and computes the value of n+nn+nnn. In case of wrong input, you must print out text "error".
+//
+//        Input:
+//        5
+//        Output:
+//        5 + 55 + 555 = 615
+//
+//        input:
+//        five
+//        Output:
+//        error
+//
+//        Input:
+//        -5
+//
+//        Output:
+//        5 + 55 + 555 = 615
+
 package Week6;
 
 import java.util.Scanner;

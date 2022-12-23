@@ -1,3 +1,27 @@
+//Instructions:
+//        Develop with Java programming language a calculator (console application) that takes a number, a basic math operator ( + , - , * , / , % ), and a second number all from user input, and have it print the result of the mathematical operation. The mathematical operations should be wrapped inside of functions.
+//
+//        Note: Do please use the provided source code template to implement your solution. The purpose of this problem is not only to assess the students' ability to build a valid implementation but also to assess the ability to read the Java code.
+//
+//        Input:
+//        On single line a number, a basic math operator ( + , - , * , / , % ), and a second number all from user input.
+//
+//        Output:
+//        On new line result of the mathematical operation. In the case of "Division by zero" you must printout the text message "Error".
+//
+//        Example 1:
+//        lab@pc:~$ 4 + 8
+//        12
+//        Example 2:
+//        lab@pc:~$ 4 * 8
+//        32
+//        Example 3:
+//        lab@pc:~$ 4 % 2
+//        0
+//        Example 4:
+//        lab@pc:~$ 4 / 0
+//        Error
+
 package Week6;
 
 import java.util.Scanner;
