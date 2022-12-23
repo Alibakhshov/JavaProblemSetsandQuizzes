@@ -1,4 +1,28 @@
-package Week1;
+//Instructions:
+//        Write a complete Java program in a class named Computer.java that displays the ASCII image as in the example below.
+//
+//        Example:
+//        >>>
+//        _________
+//        /         /.
+//        .-------------.       /_________/ |
+//        /             / |      |         | |
+//        /+============+\ |      | |====|  | |
+//        ||C:\>        || |      |         | |
+//        ||            || |      | |====|  | |
+//        ||            || |      |   ___   | |
+//        ||            || |      |  |166|  | |
+//        ||            ||/@@    |   ---   | |
+//        \+============+/    @   |_________|./.
+//@          ..  ....'
+//        ..................@     __.'.'  ''
+//        /oooooooooooooooo//     ///
+//        /................//     /_/
+//        ------------------
+//        >>>
+
+
+        package Week1;
 
 public class Computer {
     public static void main(String[] args) {

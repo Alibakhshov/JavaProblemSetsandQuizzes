@@ -1,4 +1,23 @@
-package Week1;
+//Instructions:
+//        Write a complete Java program in a class named ComputerScience.java that displays the ASCII image of the text "Computer Science".
+//
+//        Example:
+//        >>>
+//        ____                                 _
+//        / ___| ___   _ __ ___   _ __   _   _ | |_  ___  _ __
+//        | |    / _ \ | '_ ` _ \ | '_ \ | | | || __|/ _ \| '__|
+//        | |___| (_) || | | | | || |_) || |_| || |_|  __/| |
+//        \____|\___/ |_| |_| |_|| .__/  \__,_| \__|\___||_|
+//        |_|
+//        ____         _
+//        / ___|   ___ (_)  ___  _ __    ___  ___
+//        \___ \  / __|| | / _ \| '_ \  / __|/ _ \
+//                     ___) || (__ | ||  __/| | | || (__|  __/
+//        |____/  \___||_| \___||_| |_| \___|\___|
+//        >>>
+
+
+        package Week1;
 
 public class ComputerScience {
     public static void main(String[] args) {
