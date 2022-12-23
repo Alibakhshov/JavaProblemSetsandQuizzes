@@ -1,3 +1,17 @@
+//Instructions:
+//        Write a Java program DecimalToBinary that implements the static method binaryToDecimal() which converts binary number N to its decimal representation. Use Online tool to practice and converting Binary -> Decimals.
+//
+//        Note: You are not allowed to use a built-in subroutine like Integer.toBinaryString() or similar.
+//
+//        Sample I/O:
+//        student@lab:~$
+//        Enter a binary number: 101
+//        Decimal of 101 is 5
+//        Sample I/O:
+//        student@lab:~$
+//        Enter a binary number: 1100100
+//        Decimal of 1100100 is 100
+
 package Week4;
 
 import java.util.Scanner;

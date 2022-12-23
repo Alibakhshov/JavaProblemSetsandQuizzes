@@ -1,3 +1,31 @@
+//Instructions:
+//        A palindromic number or palindrome number is a number that remains the same when its digits are reversed. Like 16461. Write a Java program that implements the helper method isPalindrome() that decides whether a given int number is a palindrome or not. Do not use ready String class functions like reverse() or arrays and array functions!!!
+//
+//        Input Format
+//        A line contains an Integer N.
+//
+//        Constraints
+//
+//        1 <= N <= 999999
+//        Output Format
+//        A text containing either "This number is a palindrome" or "This number is not a palindrome"
+//
+//        Sample I/O
+//
+//        student@lab:~$
+//        Enter a number: 12345
+//        This number is not a palindrome
+//        Sample I/O:
+//
+//        student@lab:~$
+//        Enter a number: 12321
+//        This number is a palindrome
+//        Sample I/O:
+//
+//        student@lab:~$
+//        Enter a number: 121
+//        This number is a palindrome
+
 package Week4;
 import java.util.Scanner;
 

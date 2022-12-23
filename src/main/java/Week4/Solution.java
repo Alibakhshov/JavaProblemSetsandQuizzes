@@ -1,3 +1,12 @@
+//Instructions:
+//        Write a Java program that implements the static method capitalize() which capitalizes the first letter of each word in a sentence.
+//
+//        Input:
+//        the quick brown fox jumps over the lazy dog.
+//        Output:
+//        The Quick Brown Fox Jumps Over The Lazy Dog.
+//        Note: Be aware of spaces at the beginning and end of the input.
+
 package Week4;
 
 import java.util.Scanner;

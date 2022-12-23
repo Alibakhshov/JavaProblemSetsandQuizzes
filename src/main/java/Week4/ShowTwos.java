@@ -1,3 +1,22 @@
+//Instructions:
+//        Write a Java program that implements the method named showTwos that shows the factors of 2 in a given integer. For example, the following calls:
+//
+//        showTwos(7)
+//        showTwos(18)
+//        showTwos(68)
+//        showTwos(120)
+//        Input / Output:
+//        $ 7
+//        7 = 7
+//        Input / Output:
+//        $ 18
+//        18 = 2 * 9
+//        Input / Output:
+//        $ 68
+//        68 = 2 * 2 * 17
+//        Input / Output:
+//        120 = 2 * 2 * 2 * 15
+
 package Week4;
 
 import java.util.Scanner;

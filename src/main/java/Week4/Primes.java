@@ -1,3 +1,12 @@
+//Instructions:
+//        Write a Java program Primes that finds all possible prime numbers in the range of (1, n], where 1 < n ≤ 1000. Solve the problem by implementing and using the helper method isPrime(number)  which determines whether the given argument is prime or not.
+//
+//        Input:
+//        ghost@pc:~$
+//        5
+//        Output:
+//        2 3 5
+
 package Week4;
 
 import java.util.Scanner;
