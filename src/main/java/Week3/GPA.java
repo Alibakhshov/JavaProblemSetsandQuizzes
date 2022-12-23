@@ -1,3 +1,38 @@
+//Instructions:
+//        Write a Java program that converts the 100 point grades into the letter grades. Use the below table as a reference.
+//
+//        Letter Grade        Percentage        GPA
+//
+//        A                           93-100              4.0
+//
+//        A−                         90-92                3.67
+//
+//        B+                         87-89                3.33
+//
+//        B                           83-86                3.0
+//
+//        B−                         80-82                2.67
+//
+//        C+                         77-79                2.33
+//
+//        C                           70-76                2.0
+//
+//        D                           60-69                1.0
+//
+//        F                           0-59                   0.0
+//
+//        Input :
+//        The user enters a grade.
+//
+//        Output:
+//        The program converts the grade into letter and percentage grades.
+//
+//        Example:
+//        >>> 65
+//        D 1.0
+//        >>> 89
+//        B+ 3.33
+
 package Week3;
 
 import java.util.Scanner;

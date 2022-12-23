@@ -1,3 +1,25 @@
+//Instructions:
+//        Write a Java program that imitates the two players game “Scissors-Paper-Rock”. As an input use ‘sc’ for scissors, ‘pp’ for paper and ‘rc’ for rock.
+//
+//        Input:
+//        One of the three options: 'sc', 'pp' or 'rc' for each player on two separate lines.
+//
+//        Output:
+//        Text message "Draw" or "Winner is user" (where the user either Player1 or Player2) based on the game result.
+//
+//        Example 1:
+//        Player1: sc
+//        Player2: pp
+//        Winner is Player1
+//        Example 2:
+//        Player1: rc
+//        Player2: rc
+//        Draw
+//        Example 3:
+//        Player1: pp
+//        Player2: sc
+//        Winner is Player2
+
 package Week3;
 
 import java.util.Scanner;
