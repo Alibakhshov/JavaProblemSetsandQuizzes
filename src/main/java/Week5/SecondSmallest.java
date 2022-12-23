@@ -1,3 +1,15 @@
+//Instructions:
+//        Given the size of an array of doubles as N, get all numbers from the user. Afterward, find and output the second smallest element from the array,
+//
+//        The sample I/O:
+//        Enter N: 5
+//        1.2
+//        0.5
+//        1.1
+//        5.7
+//        10
+//        1.1
+
 package Week5;
 
 import java.util.Scanner;

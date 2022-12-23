@@ -1,3 +1,16 @@
+//Instructions:
+//        Write a method called isMagicSquare that accepts a two-dimensional array of integers as a parameter and returns true if it is a magic square. A square matrix is a magic square if it is square in shape (same number of rows as columns, and every row the same length), and all of its row, column, and diagonal sums are equal. For example, [[2, 7, 6], [9, 5, 1], [4, 3, 8]] is a magic square because all eight of the sums are exactly 15 (2 + 7 + 6 = 15, 9 + 5 + 1 = 15, 4 + 3 + 8 = 15).
+//
+//        Input details: The first line contains two integers N, M (dimensions of a two-dimensional array) where 1 ≤ N ≤ M ≤ 15. Then comes the array itself.
+//
+//        Input:
+//        3 3
+//        2 7 6
+//        9 5 1
+//        4 3 8
+//        Output:
+//        true
+
 package Week5;
 
 import java.util.Scanner;

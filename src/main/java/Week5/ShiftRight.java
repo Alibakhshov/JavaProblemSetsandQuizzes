@@ -1,3 +1,22 @@
+//Instructions:
+//        Write a Java program that takes a sequence of integer numbers and N as input from the user and prints out a modified version of the sequence as right-shifted by N. You must stop getting input from the user when he/she enters an empty string (Return). You should also handle inputs that are not numbers. Use arrays and methods.
+//
+//        Sample I/O:
+//        Input:
+//        Enter your numbers, press return to end.
+//        6
+//        2
+//        hello
+//        Not a legal number. Try again!
+//        5
+//        3
+//        10
+//        8
+//        Enter N:
+//        2
+//        Output:
+//        10, 8, 6, 2, 5, 3
+
 package Week5;
 
 import java.util.Scanner;

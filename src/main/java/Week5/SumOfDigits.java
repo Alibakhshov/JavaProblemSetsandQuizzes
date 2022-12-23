@@ -1,3 +1,11 @@
+//Instructions:
+//        Write a method named digitSum that accepts an integer as a parameter and returns the sum of the digits of that number. For example, digitSum(29107) returns 19 (2+9+1+0+7). For negative numbers, return the same value that would result if the number were positive. For example, digitSum(-456) returns 15 (4+5+6). Assume that the maximum length of an input number is 10. In case of wrong input, you must print out text "error".
+//
+//        Input:
+//        25
+//        Output:
+//        7
+
 package Week5;
 
 import java.util.Scanner;

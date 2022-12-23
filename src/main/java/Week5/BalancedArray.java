@@ -1,3 +1,37 @@
+//Instructions:
+//        Write a program that takes input 10 integer numbers and stores in an array. Afterward, decide whether this array can be balanced or not an output "Can be balanced" or "Cannot be balanced". An array is balanced if there is a place to split the array so that the sum of the numbers on one side is equal to the sum of the numbers on the other side.
+//
+//
+//
+//        The sample I/O:
+//        Enter 10 numbers:
+//
+//        1 2 3 4 5 5 4 3 2 1
+//
+//        Output:
+//
+//        Can be balanced
+//
+//        -----------------------
+//
+//        The sample I/O 2:
+//        Enter 10 numbers:
+//
+//        10 26 8 7 6 5 4 3 2 1
+//
+//        Can be balanced
+//
+//        -----------------------
+//
+//        The sample I/O 3:
+//        Enter 10 numbers:
+//
+//        1 2 3 4 5  5 4 3 2 0
+//
+//        Can not be balanced
+//
+//        -----------------------
+
 package Week5;
 
 import java.util.Scanner;

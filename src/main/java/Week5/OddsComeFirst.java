@@ -1,3 +1,14 @@
+//Instructions:
+//        Write a Java program to rearrange all the elements of a given array of integers so that all the odd numbers come before all the even numbers. The original order of odds and evens must be preserved.
+//
+//        Input: N (size of an array, where 1 ≤ N ≤ 1000), an array.
+//
+//        Input:
+//        5
+//        3 8 47 5 0
+//        Output:
+//        3 47 5 8 0
+
 package Week5;
 
 import java.util.Scanner;

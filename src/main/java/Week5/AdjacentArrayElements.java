@@ -1,3 +1,41 @@
+//Instructions:
+//        Write a program that takes input 10 integer numbers and stores in an array. Afterward, count the series of 2 or more adjacent elements in an array and output that number. In cases when input:
+//
+//        size is not 10 or
+//        all not integers
+//        your must print out an "error" message.
+//
+//        Sample I/O 1:
+//        Enter 10 numbers:
+//
+//        1 1 2 2 5 5 4 3 2 1
+//
+//        3
+//
+//        -----------------------
+//
+//        Sample I/O 2:
+//        Enter 10 numbers:
+//
+//        1 1 1 1 1 2 1 1 1 1
+//
+//        Output:
+//
+//        2
+//
+//        -----------------------
+//
+//        Sample I/O 3:
+//        Enter 10 numbers:
+//
+//        1 1 1 1 1 1 1 1 1 1
+//
+//        Output:
+//
+//        1
+//
+//        -----------------------
+
 package Week5;
 
 import java.util.Scanner;
