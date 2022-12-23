@@ -1,3 +1,21 @@
+//Instructions:
+//        Ask a user to enter a letter. If the entered letter is in the text ‘Hello World!’, then your program must print out “Hello”, otherwise ‘Bye’.
+//
+//        Input:
+//        A user enters any single letter.
+//
+//        Output:
+//        If the entered letter in 'Hello World!', it prints 'Hello' otherwise  'Bye'
+//
+//        Example 1:
+//        >>>
+//        h
+//        Hello
+//        Example 2:
+//        >>>
+//        f
+//        Bye
+
 package Week3;
 
 import java.util.Scanner;

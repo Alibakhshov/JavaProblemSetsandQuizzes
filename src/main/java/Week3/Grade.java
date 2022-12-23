@@ -1,3 +1,20 @@
+//Instructions:
+//        Write a Java program that outputs the message “passed” or “failed” based on the user’s input. If the user enters the number in range [50, 100] program must print out the message “passed”, if the number is in the range [0, 50) program prints out the message “failed”, otherwise program must print out “Incorrect grade!”.
+//
+//        Input :
+//        Enters his/her grade.
+//
+//        Output :
+//        Passed, failed, or Incorrect grade!
+//
+//        Example:
+//        >>> 50
+//        Passed
+//        >>> 15
+//        Failed
+//        >>> -9
+//        Incorrect grade!
+
 package Week3;
 
 import java.util.Scanner;

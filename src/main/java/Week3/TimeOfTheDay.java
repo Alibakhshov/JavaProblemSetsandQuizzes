@@ -1,3 +1,23 @@
+//Instructions:
+//        Write a Java program that asks a user to enter a time of the day (integer number from 0 to 24).  If time is between 0 and 5, the program prints "Good night!". If time is less than 10:00, then print “Good morning!”. If time is less than 20:00, then print “Good day!”, otherwise it prints “Good evening!”.
+//
+//        Input :
+//        A user enters an integer.
+//
+//        Output:
+//        According to the time, it will print messages(Good day! Good evening! Good night!)
+//
+//        Example:
+//        >>>
+//        12
+//        Good day!
+//        >>>
+//        2
+//        Good night!
+//        >>>
+//        -9
+//        Not acceptable time.
+
 package Week3;
 
 import java.util.Scanner;

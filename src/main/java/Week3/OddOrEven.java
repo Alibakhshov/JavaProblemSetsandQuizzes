@@ -1,3 +1,23 @@
+//Instructions:
+//        Write a Java program that asks a user to enter a number and prints out if it is odd or even.
+//
+//        Input:
+//        A user enters any number.
+//
+//        Output:
+//        'This number is odd' or 'This number is even'.
+//
+//        Example:
+//        >>>
+//        12
+//        This number is even
+//        >>>
+//        19
+//        This number is odd
+//        >>>
+//        0
+//        0 is not odd nor even
+
 package Week3;
 
 import java.util.Scanner;
