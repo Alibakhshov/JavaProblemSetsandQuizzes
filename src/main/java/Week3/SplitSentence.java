@@ -1,3 +1,24 @@
+//Instructions:
+//        Write a Java program that reads one line of input text and breaks it up into words. The words should be output one per line. A word is defined to be a sequence of letters. Any characters in the input that are not letters should be discarded.
+//
+//        Requirement: Implement your algorithm using while loop.
+//
+//        For example, if the user inputs the line:
+//
+//        Input:
+//        He said, "That's not a good idea."
+//        then the output of the program should be
+//
+//        Output:
+//        He
+//        said
+//        Thats
+//        not
+//        a
+//        good
+//        idea
+//        Hint: You might find String's class methods are useful split() and trim().
+
 package Week3;
 import java.util.Scanner;
 

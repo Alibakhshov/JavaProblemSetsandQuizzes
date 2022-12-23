@@ -1,3 +1,12 @@
+//Instructions:
+//        Write a Java program that uses the nested-while loops to produce the following output:
+//
+//        1
+//        22
+//        333
+//        4444
+//        55555
+
 package Week3;
 
 public class SpacesNumbers {

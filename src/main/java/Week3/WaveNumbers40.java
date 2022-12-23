@@ -1,3 +1,12 @@
+//Instructions:
+//        Write a Java program that uses the nested-while loops to produce the following output, with each line 40 characters wide:
+//
+//        ----------------------------------------
+//        _-^-_-^-_-^-_-^-_-^-_-^-_-^-_-^-_-^-_-^-
+//        1122334455667788990011223344556677889900
+//        ----------------------------------------
+//        Hint: There are 4 loops to be used for printing each line.
+
 package Week3;
 
 public class WaveNumbers40 {

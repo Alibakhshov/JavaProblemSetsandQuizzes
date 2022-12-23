@@ -1,3 +1,12 @@
+//Instructions:
+//        Write a Java program that uses the while loop to produce the following output:
+//
+//        12345
+//        12345
+//        12345
+//        12345
+//        Optional Challenge:Try to generate the output using nested-while loops.
+
 package Week3;
 
 public class NumbersSquare {

@@ -1,3 +1,10 @@
+//Instructions:
+//        Write a Java program that uses the nested-while loops to produce the following output:
+//
+//        000111222333444555666777888999
+//        000111222333444555666777888999
+//        000111222333444555666777888999
+
 package Week3;
 
 public class NestedNumbers {

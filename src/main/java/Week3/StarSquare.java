@@ -1,3 +1,11 @@
+//Instructions:
+//        Write a Java program that uses the while loop to produce the following output:
+//
+//        *****
+//        *****
+//        *****
+//        *****
+
 package Week3;
 
 public class StarSquare {
