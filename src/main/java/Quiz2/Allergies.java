@@ -1,26 +1,23 @@
-package Quiz2;
-
 import java.util.ArrayList;
 import java.util.EnumSet;
 import java.util.List;
 
 public class Allergies {
-    private final EnumSet<Allergen> allergicToItems = EnumSet.noneOf(Allergen.class);
+    private final EnumSet<Allergen> allergens = EnumSet.noneOf(Allergen.class);
 
     public Allergies(int score) {
-        for (int allergicToItemsIndex = 0; allergicToItemsIndex < Allergen.values().length; allergicToItemsIndex++) {
-            if ((score & (1 << Allergen.values()[allergicToItemsIndex].ordinal())) != 0) {
-                allergicToItems.add(Allergen.values()[allergicToItemsIndex]);
+        for (int allergenIndex = 0; allergenIndex < Allergen.values().length; allergenIndex++) {
+            if ((score & (1 << Allergen.values()[allergenIndex].ordinal())) != 0) {
+                allergens.add(Allergen.values()[allergenIndex]);
             }
         }
     }
 
     public boolean isAllergicTo(Allergen allergen) {
-        return allergicToItems.contains(allergen);
+        return allergens.contains(allergen);
     }
 
     public List<Allergen> getList() {
-        return new ArrayList<>(allergicToItems);
+        return new ArrayList<>(allergens);
     }
 }
-

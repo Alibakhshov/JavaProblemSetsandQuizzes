@@ -1,5 +1,3 @@
-package Week9;
-
 public class MyDate {
     private int year;
     private int month;
@@ -7,10 +5,10 @@ public class MyDate {
 
     public static final String[] MONTHS =
             {"Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
+            "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
     public static final String[] DAYS =
             {"Sunday", "Monday", "Tuesday", "Wednesday",
-                    "Thursday", "Friday", "Saturday"};
+            "Thursday", "Friday", "Saturday"};
     public static final int[] DAYS_IN_MONTHS =
             {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 

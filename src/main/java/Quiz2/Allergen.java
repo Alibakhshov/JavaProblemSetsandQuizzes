@@ -1,5 +1,3 @@
-package Quiz2;
-
 enum Allergen {
     EGGS(1),
     PEANUTS(2),
@@ -20,5 +18,3 @@ enum Allergen {
         return score;
     }
 }
-
-

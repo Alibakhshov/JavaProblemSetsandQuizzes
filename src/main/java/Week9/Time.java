@@ -1,16 +1,3 @@
-//Instructions:
-//
-//        Implement all the classes using Java programming language from the given UML Class diagram.
-//        Note: This problem requires you to submit only one class: Time.java.
-//
-//        Do NOT include "public static void main()" method inside all of these classes. Graders will be testing your classes, using the unit-testing framework JUnit 4.
-//
-//
-//
-//
-
-package Week9;
-
 public class Time {
     private int hour;
     private int minute;
