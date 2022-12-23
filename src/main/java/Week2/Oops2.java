@@ -1,3 +1,11 @@
+//Instructions:
+//        The following program contains 9 errors. Correct the errors and submit a working version of the program. The corrected version of the program should produce the following
+//
+//        Output:
+//        x is 0
+//        x is now 15
+//        x and y are 15 and 16
+
 package Week2;
 
 public class Oops2 {
