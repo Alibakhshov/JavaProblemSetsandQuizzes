@@ -1,3 +1,17 @@
+//Instructions:
+//        Write a complete Java program in a class named MuchBetter.java that prints the following output without using multi-line comments:
+//
+//        Output:
+//        A "quoted" String is
+//        'much' better if you learn
+//        the rules of "escape sequences."
+//        Also, "" represents an empty String.
+//        Don't forget: use \" instead of " !
+//        '' is not the same as "
+//
+//
+//
+
 package Week1;
 
 public class MuchBetter {
