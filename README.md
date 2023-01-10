@@ -2,10 +2,6 @@
 
 Java Problem Sets and Quizzes solved by me (Sophomore year).
 
-## How to run
-
-
-
 ## Problem Sets
 
 1. [Week 1](https://github.com/Alibakhshov/JavaProblemSetsandQuizzes/tree/master/src/main/java/Week1)
