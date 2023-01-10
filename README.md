@@ -1,6 +1,10 @@
 # JavaProblemSetsandQuizzes
 
-Java Problem Sets and Quizzes solved by me (Sophomore year). 
+Java Problem Sets and Quizzes solved by me (Sophomore year).
+
+## How to run
+
+
 
 ## Problem Sets
 
