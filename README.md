@@ -16,6 +16,11 @@ Java Problem Sets and Quizzes solved by me (Sophomore year).
 10. [Week 10](https://github.com/Alibakhshov/JavaProblemSetsandQuizzes/tree/master/src/main/java/Week14)
 
 
+## Quizzes
+
+1. [Quiz 1](https://github.com/Alibakhshov/JavaProblemSetsandQuizzes/tree/master/src/main/java/Quiz1)
+2. [Quiz 2](https://github.com/Alibakhshov/JavaProblemSetsandQuizzes/tree/master/src/main/java/Quiz2)
+
 
 
 
